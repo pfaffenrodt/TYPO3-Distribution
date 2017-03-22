@@ -1,5 +1,5 @@
 {
-    "name": "helhum/typo3-distribution-core",
+    "name": "pfaffenrodt/typo3-distribution-core",
     "license": "GPL-2.0+",
     "type": "library",
     "description" : "Core of TYPO3 CMS Distribution with console and .env support",
