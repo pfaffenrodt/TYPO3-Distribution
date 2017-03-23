@@ -1,16 +1,17 @@
 .DS_Store
 /.idea
 /nbproject
-/vendor/*
-/var/log/*
-!/var/log/.gitkeep
-/var/cache/*
-!/var/cache/.gitkeep
-/var/storage/*
-!/var/storage/.gitkeep
+/private/vendor/*
+/private/var/log/*
+!/private/var/log/.gitkeep
+/private/var/cache/*
+!/private/var/cache/.gitkeep
+/private/var/storage/*
+!/private/var/storage/.gitkeep
 /bin
 /typo3cms
 /.env
+/private/.env
 
 /web/typo3conf/*
 !/web/typo3conf/LocalConfiguration.php

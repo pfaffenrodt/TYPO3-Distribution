@@ -69,13 +69,13 @@ return [
     ],
     'MAIL' => [
         'transport' => 'mbox',
-        'transport_mbox_file' => dirname(PATH_site) . '/var/log/sent-mails.log',
+        'transport_mbox_file' => dirname(PATH_site) . '/private/var/log/sent-mails.log',
     ],
     'LOG' => [
         'writerConfiguration' => [
             \TYPO3\CMS\Core\Log\LogLevel::DEBUG => [
                 \TYPO3\CMS\Core\Log\Writer\FileWriter::class => [
-                    dirname(PATH_site) . '/var/log/typo3-default.log'
+                    dirname(PATH_site) . '/private/var/log/typo3-default.log'
                 ]
             ]
         ]
